@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+:root {
+    --color1: #222429;
+    --color2: #3491ef;
+    --color3: #ff4e00;
+    --color4: #f7df1e;
+    --color5: #979797;
+    --color5: #f5f6f6;
+    /* FONT */
+    --font-family: "Poppins", sans-serif;
+}
+
+.navbar ul li a {
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+form {
+    width: 101px;
+}
+
+form input {
+    font-family: var(--font-family);
+
+    font-weight: bold;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.icons i {
+    font-size: 25px;
+}
+
+.heading h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.heading p {
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-style: normal;
+    font-weight: bold;
+    color: #979797;
+    left: 50%;
+    margin-bottom: 20px;
+}
+
+.free {
+    font-family: var(--font-family);
+}
+
+span {
+    font-size: 70px;
+    font-family: var(--font-family);
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}
+
+.outercard {
+    height: 90%;
+}
+
+.cardtext {
+    font-family: var(--font-family);
+}
+
+.premium-tag {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 16px;
+    font-family: var(--font-family);
+    padding: 5px 10px;
+
+}
+
